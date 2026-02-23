@@ -2,7 +2,7 @@
 > 동물 병원 의료 현장의 다양한 장비로부터 발생하는 HL7(Health Level Seven) 표준 메시지를 실시간으로 수집, 파싱하여 데이터 파이프라인(Kafka)으로 전송하는 통합 처리 시스템
 >
 
-![ex_screenshot](system_process.png)
+![ex_screenshot](img/system_process.png)
 
 ---
 
