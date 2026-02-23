@@ -74,6 +74,8 @@
 - **사전 준비**:
     1. 파일들을 다음 경로에 배치합니다: `C:\Users\user\Project\safes_hl7_server`
         - 경로상에 공백이 포함되지 않도록 주의하십시오.
+        - Project 폴더가 없으면 생성하시오.
+          ![ex_screenshot](img/file_path.png)
     2. 필수 파일 목록: deploy_hl7_service.bat, hl7_server.py, nssm-2.24.zip
 
 - **설치 및 실행**:
@@ -83,5 +85,8 @@
  
 - **정상 작동 확인**:
     - 네트워크 상태 확인: 관리자 권한의 명령 프롬프트(CMD)에서 다음 명령어를 입력하여 6000번 포트가 LISTENING 상태인지 확인합니다.
-          - `netstat -ano | findstr 6000`
+        - `netstat -ano | findstr 6000`
+        - 출력 예: `TCP    0.0.0.0:6000           0.0.0.0:0              LISTENING       pid`
+          ![ex_screenshot](img/Run_as_administrator.png)
+    - `taskkill /f /pid pid` 명령으로 해당 프로그램을 종료할 수 있습니다.
     - 로그 확인: `C:\Users\user\Project\safes_hl7_server\logs\hl7_server.log` 경로에서 실시간 수신 및 오류 기록을 확인할 수 있습니다.
