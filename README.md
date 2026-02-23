@@ -73,8 +73,8 @@
 
 - **사전 준비**:
     1. 파일들을 다음 경로에 배치합니다: `C:\Users\user\Project\safes_hl7_server`
-           - 경로상에 공백이 포함되지 않도록 주의하십시오.
-    3. 필수 파일 목록: deploy_hl7_service.bat, hl7_server.py, nssm-2.24.zip
+        - 경로상에 공백이 포함되지 않도록 주의하십시오.
+    2. 필수 파일 목록: deploy_hl7_service.bat, hl7_server.py, nssm-2.24.zip
 
 - **설치 및 실행**:
     1. 바로가기 생성: `deploy_hl7_service.bat` 파일의 바로가기를 바탕화면에 생성합니다.
