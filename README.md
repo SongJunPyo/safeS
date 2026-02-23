@@ -1,7 +1,7 @@
 # safeS
 동물병원에서 수술 시 발생하는 HL7(Health Level Seven) 의료 메시지를 수집하고 처리하는 시스템
 
-![ex_screenshot](./system_precess.png)
+![ex_screenshot](system_process.png)
 
 | **구분** | **deploy_hl7_service.bat (배치 스크립트)** | **hl7_server.py (파이썬 스크립트)** |
 | --- | --- | --- |
