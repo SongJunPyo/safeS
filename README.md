@@ -87,6 +87,6 @@
     - 네트워크 상태 확인: 관리자 권한의 명령 프롬프트(CMD)에서 다음 명령어를 입력하여 6000번 포트가 LISTENING 상태인지 확인합니다.
         - `netstat -ano | findstr 6000`
         - 출력 예: `TCP    0.0.0.0:6000           0.0.0.0:0              LISTENING       pid`
-          ![ex_screenshot](img/Run_as_administrator.png)
+          ![ex_screenshot](img/Run_as_administrator.png){: width="50%" height="50%"}
     - `taskkill /f /pid pid` 명령으로 해당 프로그램을 종료할 수 있습니다.
     - 로그 확인: `C:\Users\user\Project\safes_hl7_server\logs\hl7_server.log` 경로에서 실시간 수신 및 오류 기록을 확인할 수 있습니다.
